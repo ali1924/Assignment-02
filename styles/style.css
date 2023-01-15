@@ -1,0 +1,345 @@
+Md Hossain Lanju
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* common css or utilities */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 64px;
+    display: block;
+    margin: 32px auto 0px;
+}
+
+.orange {
+    color: #FF900E;
+    font-weight: 700px;
+}
+
+.gray {
+    color: #727272;
+}
+
+/* header menu styling */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 0px 42px;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* brand new style */
+section.brand-section {
+    padding-top: 116px;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.brand-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+/* brand new bottom img */
+.brand-new-bottom-img {
+    margin-top: 33px;
+}
+
+.brand-new-bottom-img img {
+    width: 100%;
+}
+
+/* quick list our feature */
+.quick-list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 60px 0px 106px;
+}
+
+.quick-list-left-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.quick-list-left-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.quick-list-right {
+    margin-left: 50px;
+}
+
+.quick-right-title {
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.quick-right-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.quick-list-right .btn-primary {
+    margin: 30px 0px 0px;
+}
+
+/* features love section style */
+.features-love {
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    grid-column-gap: 53px;
+}
+
+.features-love-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+
+.features-love-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 24px 0px 30px;
+}
+
+.features-love-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.features-love-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-love-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* button style */
+.features-love-right {
+    position: relative;
+}
+
+button.ex-btn {
+    position: absolute;
+    bottom: 0;
+    left: -38px;
+}
+
+.ex-btn {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 46px;
+}
+
+.ex-btn span {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* some fact item */
+.some-fact {
+    margin: 70px 0px 110px;
+}
+
+.some-fact-top {
+    width: 542px;
+}
+
+.some-fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.some-fact-item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 70px;
+}
+
+.some-fact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px 20px 40px;
+    margin-top: 100px;
+    transition: 0.5s ease-in;
+}
+
+.some-fact-item:hover {
+    background-color: tomato;
+}
+
+
+
+.some-fact-item img {
+    height: 45px;
+    width: 45px;
+}
+
+.some-fact-item-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    transition: 0.5s ease-in;
+}
+
+.some-fact-item-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    transition: 0.5s ease-in;
+}
+
+.some-fact-item:hover .some-fact-item-description {
+    color: #FFFFFF;
+}
+
+.some-fact-item:hover .some-fact-item-title {
+    color: #FFFFFF;
+}
+
+/* our sponsor logo  */
+.our-sponspors {
+    margin-bottom: 110px;
+}
+
+.our-sponspors-contetn {
+    text-align: center;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponspors-description {
+    width: 542px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin: 24px auto 50px;
+}
+
+.our-sponspors-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-sponspors-img img {
+    width: 150px;
+    height: 50px;
+}
+
+/* footer style */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 0px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
