@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.btn-primary {
+.button-primary {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
@@ -138,7 +138,7 @@ section.brnd-section {
     color: #727272;
 }
 
-.quick-list-right .btn-primary {
+.quick-list-right .button-primary {
     margin: 30px 0px 0px;
 }
 
@@ -191,13 +191,13 @@ section.brnd-section {
     position: relative;
 }
 
-button.ex-btn {
+button.ex-button {
     position: absolute;
     bottom: 0;
     left: -38px;
 }
 
-.ex-btn {
+.ex-button {
     font-weight: 500;
     font-size: 25px;
     text-align: center;
@@ -208,7 +208,7 @@ button.ex-btn {
     padding: 46px;
 }
 
-.ex-btn span {
+.ex-button span {
     font-weight: 700;
     font-size: 65px;
     text-align: center;
